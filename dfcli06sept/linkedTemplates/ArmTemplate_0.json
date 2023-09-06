@@ -130,6 +130,9 @@
 					"referenceName": "AzureDataLakeLinkedService",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "Folder output"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -156,6 +159,9 @@
 				"linkedServiceName": {
 					"referenceName": "AzureDataLakeLinkedService",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "Folder input"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
@@ -234,6 +240,9 @@
 					"referenceName": "AzureDataLakeLinkedService",
 					"type": "LinkedServiceReference"
 				},
+				"folder": {
+					"name": "Folder input"
+				},
 				"annotations": [],
 				"type": "DelimitedText",
 				"typeProperties": {
@@ -262,6 +271,9 @@
 				"linkedServiceName": {
 					"referenceName": "AzureDataLakeLinkedService",
 					"type": "LinkedServiceReference"
+				},
+				"folder": {
+					"name": "Folder output"
 				},
 				"annotations": [],
 				"type": "DelimitedText",
